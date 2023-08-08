@@ -86,7 +86,8 @@ def Person_RescuePerson():
     print("Person successfully rescued!")
 
 
-# Function to return to the room where person was detected, maybe do the clap function here???
+# Function to return to the room where person was detected
+# Not quite sure how this will work, not sure if its inputs or not
 def Person_ReturnToRoom():
     # Return to the room in which the person was located
     TargetRoomList = ["C", "E", "G"]
