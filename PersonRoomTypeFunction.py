@@ -111,8 +111,8 @@ def Person_ReturnToRoom():
         print("Successfully returned to the room")
 
 
-# Function that gets called once room type has been established
-# Combines all previous functions into this one function
+# MAIN FUNCTION: that gets called once room type has been established
+# Combines all previous functions into this one main function
 def PersonRoomType():
     # Enter the room
     Person_EnterRoom()
