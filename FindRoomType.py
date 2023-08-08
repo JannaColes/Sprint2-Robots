@@ -2,7 +2,8 @@
 # Date Written: August 7, 2023
 # Program Description: Portion of code for determining room type
 
-# Function to determine the type of room, Fire, Poison or Person (clapping instead?)
+# Function to determine the type of room, Fire, Poison or Person
+# not sure if its supposed to be inputs or not...
 def FindRoomType():
     # 1 = Fire; 2 = Poison; 3 = Person
     RoomList = [1, 2, 3]
