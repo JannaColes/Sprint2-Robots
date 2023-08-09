@@ -9,18 +9,18 @@ def FindRoomType():
     RoomList = [1, 2, 3]
 
     while True:
-        Room = int(input("Enter the room number: "))
+        RoomType = int(input("Enter the room type's corresponding number (1-3): "))
 
-        if Room == 1:
+        if RoomType == 1:
             # Call function for FireRoom()
             print(" ")
-        elif Room == 2:
+        elif RoomType == 2:
             # Call function for PoisonRoom()
             print(" ")
-        elif Room == 3:
+        elif RoomType == 3:
             PersonRoomType()
             print("Person search and rescue completed successfully! ")
-        elif Room not in RoomList:
+        elif RoomType not in RoomList:
             print("Error- not a valid room type")
         else:
-            return Room
+            return RoomType
