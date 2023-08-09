@@ -18,6 +18,7 @@ def FindRoomType():
             # Call function for PoisonRoom()
             print(" ")
         elif RoomType == 3:
+            # Call function depending on which room (C or E)
             # PersonRoomCType3()
             # PersonRoomEType3()
             print("Room Identified successfully! ")
