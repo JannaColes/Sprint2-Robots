@@ -211,10 +211,12 @@ def Person_ReturnToRoomC():
 
 
 def Person_ReturnToRoomE():
-    # Total move - ???  Need to adjust for this room
+    # Total move - 25.25
     chassis_ctrl.move_with_distance(0, 5)
     chassis_ctrl.move_with_distance(0, 5)
-    chassis_ctrl.move_with_distance(0, 4.73)
+    chassis_ctrl.move_with_distance(0, 5)
+    chassis_ctrl.move_with_distance(0, 5)
+    chassis_ctrl.move_with_distance(0, .25)
     print("Back to Room E")
 
 
