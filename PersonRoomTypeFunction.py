@@ -202,7 +202,7 @@ def Person_RescuePersonRoomE():
     print("Gimbal successfully re-centered!")
 
 
-# Function to return to infront of room c
+# Function to return to in front of room c
 def Person_ReturnToRoomC():
     # Total move - 14.73
     chassis_ctrl.move_with_distance(0, 5)
@@ -211,7 +211,7 @@ def Person_ReturnToRoomC():
     print("Back to Room C")
 
 
-# Function to return to infront of room E
+# Function to return to in front of room E
 def Person_ReturnToRoomE():
     # Total move - 25.25
     chassis_ctrl.move_with_distance(0, 5)
