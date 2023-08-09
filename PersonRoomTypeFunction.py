@@ -234,10 +234,10 @@ def PersonRoomCType3():
     # Find the person
     Person_FindPersonRoomC()
 
-    # Bring the person to the start position
+    # Bring the person to the start position (A)
     Person_RescuePersonRoomC()
 
-    # Return to the front of the same door
+    # Return to in front of room C
     Person_ReturnToRoomC()
     # print("Operation Find and Rescue completed successfully!")
 
@@ -252,12 +252,12 @@ def PersonRoomEType3():
     # Find the person
     Person_FindPersonRoomE()
 
-    # Bring the person to the start position
+    # Bring the person to the start position (A)
     Person_RescuePersonRoomE()
 
-    # Return to the front of the same door
+    # Return to in front of room E
     Person_ReturnToRoomE()
-    # print("Operation Find and Rescue completed successfully!")
+    print("Operation Find and Rescue completed successfully!")
 
 # Call the necessary function:
 # PersonRoomCType3()
