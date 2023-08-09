@@ -1,3 +1,4 @@
 # Sprint2-Robots
 Sprint 2 - Robots
-Updating the PersonRoomTypeFunction 
+Updated the PersonRoomTypeFunction 
+Updated the FindRoomType
