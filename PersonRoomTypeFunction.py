@@ -6,7 +6,9 @@
 # Function to enter a room
 def Person_EnterRoom():
     # Sound clip "To the rescue!" (add custom media file)
-    media_ctrl.play_sound(rm_define.media_custom_audio_undefined)
+    custom_audio_file_path = "voice-changer-2023-08-09.mp3"  
+    media_ctrl.play_sound(custom_audio_file_path)
+    # media_ctrl.play_sound(rm_define.media_custom_audio_undefined)
 
     # Enter a room by moving the chassis straight x amount
     chassis_ctrl.move_with_distance(0, 2)
