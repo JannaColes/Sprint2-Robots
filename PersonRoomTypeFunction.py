@@ -50,7 +50,9 @@ def Person_FindPersonMarker():
         led_ctrl.set_top_led(rm_define.armor_top_all, 0, 127, 70, rm_define.effect_always_on)
 
         # play sound clip saying "Person found!" (replace with actual media content)
-        media_ctrl.play_sound(rm_define.media_custom_audio_undefined, wait_for_complete_flag=True)
+        custom_audio_file_path2 = "voice-changer-2023-08-09-11-14.mp3"
+        media_ctrl.play_sound(custom_audio_file_path2, wait_for_complete_flag=True)
+        # media_ctrl.play_sound(rm_define.media_custom_audio_undefined, wait_for_complete_flag=True)
 
     # Disables vision detection
     vision_ctrl.disable_detection(rm_define.vision_detection_people)
