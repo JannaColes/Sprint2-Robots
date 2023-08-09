@@ -18,8 +18,9 @@ def FindRoomType():
             # Call function for PoisonRoom()
             print(" ")
         elif RoomType == 3:
-            PersonRoomType()
-            print("Person search and rescue completed successfully! ")
+            # PersonRoomCType3()
+            # PersonRoomEType3()
+            print("Room Identified successfully! ")
         elif RoomType not in RoomList:
             print("Error- not a valid room type")
         else:
