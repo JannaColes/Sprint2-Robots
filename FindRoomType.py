@@ -1,5 +1,5 @@
 # Written by:  Jennifer Oliver
-# Date Written: August 7, 2023
+# Date Written: August 8, 2023
 # Program Description: Portion of code for determining room type (Branch 1)
 
 # Function to determine the type of room, Fire, Poison or Person
