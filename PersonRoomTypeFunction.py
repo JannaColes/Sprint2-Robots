@@ -239,7 +239,7 @@ def PersonRoomCType3():
 
     # Return to in front of room C
     Person_ReturnToRoomC()
-    # print("Operation Find and Rescue completed successfully!")
+    print("Operation Find and Rescue completed successfully!")
 
 
 def PersonRoomEType3():
