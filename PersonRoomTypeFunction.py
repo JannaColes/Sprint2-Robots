@@ -1,6 +1,6 @@
 # Program Comments
 # Written by:  Jennifer Oliver
-# Date Written: August 7, 2023 - 
+# Date Written: August 8, 2023 
 # Program Description: Portion of code for person detection, location and rescue (Branch 1)
 
 
